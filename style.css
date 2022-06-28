@@ -1,0 +1,29 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    
+}
+
+table{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0,15);
+    cursor: pointer;
+    margin: 100 auto;
+    border: 2px solid midnightblue;
+}
+
+tbody tr, td, th{
+    padding: 15px 20px;
+    border: 1px;
+}
+
+tbody tr :nth-child(event){
+    background-color: blue;
+}
+
+h2{
+    color: blueviolet;
+    font-weight: bold;
+}
